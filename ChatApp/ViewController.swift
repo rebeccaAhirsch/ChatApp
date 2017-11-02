@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var usernameTextField: UILabel!
+    @IBOutlet weak var roomIDTextField: UILabel!
+    @IBOutlet weak var incognitoTextField: UILabel!
+    @IBAction func cancelToChatViewController(segue:UIStoryboardSegue){
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
